@@ -1,0 +1,47 @@
+.quotePara {
+    width: 50rem;
+    height: 20rem;
+    margin: auto;
+    border: 0.2rem solid gray;
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+    background-color: gainsboro;
+    box-shadow: 0px 5px 5px 1px gainsboro;
+}
+
+#quote {
+    margin: 3.5rem 3rem 5rem 3rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.author {
+    margin: 13rem 0 5rem 20rem;
+    position: absolute;
+}
+
+#quoteButton {
+    display: flex;
+    justify-self: center;
+    width: 6.5rem;
+    height: 2rem;
+    align-items: center;
+    margin-top: 15rem;
+    position: absolute;
+    border: 0.1rem solid gray;
+    border-radius: 10px;
+    padding: 1.2rem;
+    transition: background-color 0.5s, border 0.5s;
+}
+
+
+
+#quoteButton:hover {
+    background-color: gainsboro;
+    border: 0.15rem solid gray;
+}
+
+#quoteButton:active {
+    background-color: darkgray;
+}
